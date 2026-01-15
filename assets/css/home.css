@@ -1,0 +1,245 @@
+/* ================= Body ================= */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #ffffff;
+}
+
+/******************Home page***********************/
+.container-fluid p-0 m-0 {
+  color: #6a1b9a;
+}
+.container-fluid p-0 m-0 h3 {
+  font-size: 30px;
+}
+.container-fluid p-0 m-0 p {
+  font-size: 18px;
+}
+.primary-background {
+  background-color: #6a1b9a !important;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+  padding: 12px 30px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 15px;
+}
+
+.navbar .form-control {
+  border-radius: 6px;
+}
+
+/****************************-------------Search Section------------****************************/
+.search-results {
+  position: absolute;
+  top: 45px;
+  width: 100%;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  max-height: 250px;
+  overflow-y: auto;
+  display: none;
+}
+
+.search-results div {
+  padding: 10px 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+.search-results div:hover {
+  background-color: #f3e5f5;
+}
+
+/* ================= CARD SECTION ================= */
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-body {
+  flex: 1; /* MAKES BODY TAKE EQUAL SPACE */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-title {
+  font-weight: 600;
+}
+
+.card-text {
+  color: #555;
+}
+
+/* Read Button */
+.custom-read-btn {
+  background-color: #6a1b9a;
+  color: #ffffff;
+  border-radius: 6px;
+  height: 45px;
+  width: 80px;
+}
+
+.custom-read-btn:hover {
+  background-color: #4a1370;
+  color: #ffffff;
+}
+
+/* ================= WHY SECTION ================= */
+
+.why-section {
+  margin-top: 2px;
+  background-color: #fefaff;
+  padding: 80px 0;
+  margin-bottom: -50px;
+}
+
+.why-section h2 {
+  color: #6a1b9a;
+}
+
+.why-section i {
+  margin-bottom: 15px;
+}
+
+/* ================= CREATOR SECTION ================= */
+.creator-section {
+  background-color: #fbf1fe;
+  padding: 80px 0;
+}
+
+.creator-section .card {
+  border-radius: 12px;
+  margin-top: 10px;
+}
+.creator-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  object-fit: cover;
+  margin-left: 158px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  display: block;
+}
+.text-muted {
+  font-size: 16px;
+  margin-top: 1px;
+}
+.small-text {
+  font-size: 14px;
+  margin-top: 1px;
+}
+
+/* ================= NEWSLETTER ================= */
+#newsletterForm input {
+  border-radius: 8px;
+}
+
+#newsletterForm button {
+  border-radius: 8px;
+}
+#newsletter {
+  margin-top: -10px;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+  background-color: #6a1b9a;
+  color: #ffffff;
+}
+
+.footer i {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/***********Responsive page**********/
+@media (max-width: 768px) {
+  .jumbotron h3 {
+    font-size: 2rem;
+  }
+
+  .jumbotron p {
+    font-size: 1rem;
+  }
+
+  .jumbotron {
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .jumbotron .btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .card-img-top {
+    height: 180px;
+  }
+  h1,
+  h2,
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  .display-4 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 576px) {
+  .footer i {
+    margin: 10px;
+    display: inline-block;
+  }
+
+  .footer p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar .form-inline {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .navbar .form-control {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .navbar button {
+    width: 100%;
+  }
+}

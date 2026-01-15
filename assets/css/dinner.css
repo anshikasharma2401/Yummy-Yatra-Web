@@ -1,0 +1,32 @@
+body {
+    background-color: #f9f7fc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.recipe-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #6a1b9a;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #6a1b9a;
+    font-weight: 600;
+}
+
+.btn-purple {
+    background-color: #8e24aa;
+    color: white;
+    border: none;
+}
+
+.btn-purple:hover {
+    background-color: #6a1b9a;
+}

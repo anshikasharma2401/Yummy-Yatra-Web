@@ -1,0 +1,42 @@
+body {
+    background-color: #f9f7fc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(106, 27, 154, 0.1);
+}
+
+h2 {
+    color: #6a1b9a;
+    font-weight: bold;
+    border-bottom: 3px solid #6a1b9a;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+h4 {
+    color: #8e24aa;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+ul, ol {
+    background-color: #ffffff;
+    border-left: 4px solid #ba68c8;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.poha-img {
+    max-height: 300px;
+    object-fit: cover;
+    border: 2px solid #ce93d8;
+    border-radius: 10px;
+}

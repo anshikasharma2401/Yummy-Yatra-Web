@@ -77,7 +77,7 @@ Since this is a frontend-only project:
 
 ### 🔟 Food Recipe ![Food Recipe](Screenshot/sc10.png)
 
-### Contact ![Food Recipe](sc11.png)
+### Contact ![Food Recipe](Screenshot/sc11.png)
 
 ## 📂 Project Structure
 

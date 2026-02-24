@@ -83,7 +83,7 @@ Since this is a frontend-only project:
 
 ## 🌐 Live Demo
 
-(Netlify link here)
+🔗 https://shiny-froyo-233cd3.netlify.app
 
 ## 👩‍💻 Developed By
 

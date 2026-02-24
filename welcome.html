@@ -23,7 +23,7 @@
 
     <!-- HERO SECTION -->
     <header class="hero">
-        <h1>🍽️ Welcome to Yummy Yatra!</h1>
+        <h1 id="welcomeTitle">🍽️ Welcome to Yummy Yatra!</h1>
         <p>Your ultimate food blogging destination built with HTML, CSS, Bootstrap& JavaScript.</p>
         <p class="hero-sub">
             Join our community of food lovers, share your own recipes, and explore a world of flavors.
@@ -31,12 +31,12 @@
 
         <div class="hero-buttons">
             <a href="#" class="btn primary">Join the Yatra</a>
-            <button type="button" class="btn btn-outline-secondary" id ="btn2" disabled>Login</button>
+            <button type="button" class="btn btn-danger" onclick="logout()">Logout</button>
         </div>
     </header>
 
     <!-- CONTENT -->
-    <main class="container">
+    <main class="welcome-container">
 
         <!-- ABOUT -->
         <section class="card">
